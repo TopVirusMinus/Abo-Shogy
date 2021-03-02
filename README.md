@@ -6,4 +6,4 @@ Link: https://topvirusminus.github.io/Abo-Shogy/
 0% money\
 0% drugs\
 0% nudity\
-100% Abo shogy\
+100% Abo shogy
