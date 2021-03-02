@@ -188,7 +188,15 @@ footer i{
 
 nav{
   display: block;
+  border-bottom: 1px solid white;
 }
+.link{
+  font-size: .8rem;
+}
+.icon{
+  text-align: center;
+}
+
 .mainImg{
   width: 200px;
   height: 200px;
@@ -199,19 +207,22 @@ main{
   justify-content: space-around;
   align-items: center;
   margin-bottom: 20px;
-  margin-top: 0px;
+  margin-top: 30px;
   height: 100vh;
 }
 
 section{
   margin-top: 0px;
   height: 100vh;
+  text-align: center;
 }
 
 .Cards{
     flex-direction: column;
     flex-wrap: wrap;
     height: 100%;
+    text-align: center;
+    justify-content: space-evenly;
 }
 
 .card1, .card2,.card3{
@@ -228,6 +239,8 @@ section{
 }
 .mainHeader{
   font-size: 3rem;
+  position: relative;
+  bottom: 150px;
 }
 
 
