@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+   <link
+    href="data:image/x-icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAWlxeAKWkrQCioKoAfaKiAKWlrABGR0kAoKCoAHmEhwBBQkUAo6qsAC4vMAC7vL0AmZehAI6PkQAwMjIAQUJDAEtLTQClo60AZISEAKWkrACys7QAo6SnAJeYmQClpasAOElJAGlrbQCkwMAAkJGVAKCepwDHx9MAb3p7AJ2eogAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAIEBw0XAAAAAAAAAAAAAAACAhQCAAAAAAAAAAAAAAAPAgICCQIAAAAAGQIfAAALAAASGAICAhgCGhIKAAAADAAAAB0CAgICAgIIAAATFQAAAAAAAgICAgIgAgIOAAAAAAAAAAICHhgUAgEAAAAAAAAAAAAQAgIFAgICAAAAAAAAAAAAABwCAgIDAAAAAAAAAAAAAAAAABYbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AADv/wAA7/8AAPB/AADw/wAA4HgAANgBAADcAwAAPgAAAP4DAAD+AwAA/wcAAP/PAAD//wAA//8AAP//AAA="
+    rel="icon" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>ابو شوجي</title>
+</head>
+
+<body>
+  <iframe src="aboshogy.mp3" allow="autoplay" style="display:none" loop id="iframeAudio"></iframe>
+
+  <div class="container">
+    <nav>
+      <div class="icon">
+        <svg width="82" height="82" viewBox="0 0 82 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0)">
+            <path
+              d="M81.7172 29.7803C81.5655 29.6395 81.3911 29.5682 81.1984 29.5682C80.4943 29.5682 79.7492 30.5611 79.0917 31.4374C78.8433 31.7685 78.5163 32.2044 78.3489 32.3495C78.3293 32.0154 78.5809 31.0667 78.7702 30.3537C79.2482 28.5514 79.7426 26.6882 78.9375 26.2546C78.8537 26.2095 78.7652 26.1865 78.6741 26.1865C78.0945 26.1865 77.6511 27.055 76.9757 28.4722C76.4469 29.5814 75.789 30.9622 75.2456 30.9622C75.211 30.9622 75.1769 30.9562 75.1418 30.9437C75.0462 30.7729 75.0546 29.9909 75.061 29.4157C75.0773 27.9086 75.0958 26.2006 74.1393 26.0731C74.1109 26.0692 74.0824 26.0674 74.0542 26.0674C73.2275 26.0674 72.7452 27.6143 72.2346 29.2524C71.986 30.0503 71.61 31.2564 71.3973 31.3379C71.1115 31.2807 70.5338 30.4183 70.0696 29.7254C69.3083 28.589 68.5819 27.5201 67.9092 27.5754C67.2076 27.6339 67.2185 28.6298 67.2299 29.6844C67.2392 30.5504 67.2511 31.6285 66.8177 31.8617C66.7758 31.8842 66.7303 31.8951 66.6788 31.8951C66.1969 31.8951 65.4049 31.0316 64.7684 30.3377C64.0262 29.5288 63.5505 29.0329 63.1397 29.0329C63.0381 29.0329 62.9425 29.0643 62.8632 29.1237C62.4112 29.4628 62.4367 30.4878 62.4638 31.5729C62.4775 32.1199 62.498 32.9365 62.3855 33.1094C62.1769 33.0809 61.5821 32.6856 61.0546 32.3356C59.888 31.5608 58.4362 30.5964 57.2653 30.5964C57.0726 30.5964 56.8916 30.6233 56.7271 30.6764C55.4569 31.0854 55.2132 31.6868 55.052 32.0848C54.9675 32.2934 54.9251 32.3877 54.8081 32.4378C54.6617 32.5002 54.4248 32.4756 54.1643 32.4362C53.9919 32.41 53.8134 32.3832 53.6237 32.3832C53.2053 32.3832 52.8592 32.526 52.565 32.8202C52.266 33.1192 51.9986 33.4737 51.7399 33.8165C51.3553 34.3266 50.9916 34.8085 50.6414 34.9399C50.4562 35.0093 50.0855 35.3967 49.0409 36.5066C46.7436 38.9472 41.9634 44.0259 39.5135 44.0261C39.0551 44.0261 38.7126 43.8426 38.4667 43.465C38.0599 42.8408 37.4508 41.6976 36.6795 40.25C34.2439 35.6793 30.5632 28.7717 27.4319 27.1539C19.1322 22.866 12.0388 15.9887 8.22799 12.294C6.14975 10.2791 5.41146 9.58228 5.02661 9.58228C4.91752 9.58228 4.82188 9.63192 4.76381 9.71868C4.65245 9.8847 4.69253 10.1443 4.91138 10.677C5.57429 12.2897 7.09391 14.5028 8.3152 16.2809C9.0207 17.3081 9.80681 18.4531 10.0177 18.9325C9.44382 18.667 8.3398 17.5003 7.43299 16.5421C5.83549 14.8546 4.81732 13.8298 4.14485 13.8298C4.01641 13.8298 3.90277 13.8667 3.80781 13.9389C3.29292 14.3301 4.03303 15.3729 5.3855 17.1824C5.92453 17.9036 6.71816 18.9655 6.8179 19.3317C6.53074 19.2707 5.8931 18.7663 5.37457 18.3559C4.49555 17.6604 3.58623 16.9413 2.92196 16.9413C2.79443 16.9413 2.67761 16.9674 2.57445 17.0189C2.42255 17.0947 2.32349 17.2184 2.28751 17.3767C2.17797 17.8595 2.68216 18.5554 3.46417 19.5622C3.80485 20.0005 4.30949 20.6505 4.34912 20.8821C4.31769 20.8884 4.28308 20.8916 4.24596 20.8916C3.89025 20.8916 3.36944 20.6149 2.86571 20.3471C2.31393 20.0538 1.79266 19.7769 1.36226 19.7769C1.21537 19.7769 1.08443 19.8097 0.973072 19.8741C0.483232 20.1577 0.92616 21.0387 1.39528 21.9713C1.52349 22.2266 1.69041 22.5584 1.75121 22.7335C1.6353 22.7497 1.44492 22.7499 1.30715 22.7501C0.864219 22.7508 0.406033 22.7515 0.157128 23.0049C0.0523735 23.1113 -0.00159772 23.2522 0.000679545 23.4126C0.0102441 24.0174 9.60163 44.5797 20.8971 52.5044C22.4083 53.5647 22.9945 55.4607 23.5613 57.2944C23.7683 57.9639 23.9637 58.5963 24.2003 59.1706C24.2854 59.3776 24.2866 59.5507 24.2041 59.7158C23.848 60.427 22.0061 60.9002 20.0561 61.401C18.9309 61.6902 17.7677 61.989 16.6391 62.3784C2.58059 64.1087 2.58128 64.8889 2.58128 65.2641C2.58128 66.0195 3.08364 66.38 3.45051 66.6433C3.82057 66.9088 3.87408 66.9842 3.80872 67.1477C3.7231 67.362 3.51746 67.5824 3.29998 67.8158C2.82973 68.3207 2.24424 68.9488 2.59562 69.8859C2.7227 70.2245 3.13966 70.3891 3.87021 70.3891C5.13318 70.3891 7.18318 69.9132 8.69004 69.5108C5.30648 71.4451 5.30625 71.7983 5.30625 71.9254C5.30625 72.0973 5.30625 72.4177 7.25309 72.4177C9.19719 72.4177 12.2767 72.0659 14.557 71.0746C15.262 70.7681 15.8627 70.4734 16.4437 70.1887C16.9923 69.9198 17.5113 69.6654 18.0332 69.4452C23.9828 69.7663 33.1404 70.1398 39.4539 70.1398C43.0073 70.1398 45.2452 70.0209 46.1046 69.7866C47.2567 69.4723 48.5766 68.9622 49.9744 68.4223C52.5531 67.426 55.2196 66.3955 57.2853 66.3955C57.7082 66.3955 58.0942 66.4406 58.4324 66.5296C61.4584 67.3258 62.6162 69.7228 62.6275 69.7469L62.6733 69.8442L62.7772 69.8708C62.7952 69.8754 62.8924 69.8984 63.0429 69.8984C63.4786 69.8984 64.5455 69.6927 65.0453 67.7887C65.3391 66.6697 64.7661 65.8444 64.553 65.5862C64.6065 64.9779 64.7297 61.9687 62.2021 59.9702C60.6684 58.7573 59.1474 58.1998 58.1411 57.8307C57.6654 57.6563 57.0136 57.4174 57.025 57.2908C57.1284 56.6317 63.53 43.542 72.6753 40.6323C79.7451 38.3828 81.4437 33.9597 81.8458 32.1627C82.092 31.0594 82.0394 30.0795 81.7172 29.7803Z"
+              fill="white" />
+          </g>
+          <defs>
+            <clipPath id="clip0">
+              <rect width="82" height="82" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+      </div>
+      <div class="links">
+          <a class="link" href="https://youtu.be/mYzJWVOQopc" target="_blank">مين ابو شوجي</a>
+          <a class="link" href="https://youtu.be/mYzJWVOQopc" target="_blank">تواصل مع ابو شوجي</a>
+      </div>
+
+      <div class="hamburger">
+        <img src="iconmonstr-menu-1.svg" alt="hambrger" srcset="">
+      </div>
+    </nav>
+
+    <main>
+      <div class="mainImg">
+        <img src="aboshogy.jpg" alt="aboshogy" srcset="" class="mainImg">
+      </div>
+
+      <div class="mainText">
+        <h1 class="mainHeader">ابو<br> شوجي</h1>
+      </div>
+
+    </main>
+  </div>
+
+  <section>
+    <div class="Cards">
+      <div class="card1"><svg xmlns="http://www.w3.org/2000/svg" width="137.521" height="187.014"
+          viewBox="0 0 137.521 187.014">
+          <g id="suit-and-tie-outfit" transform="translate(-12.683)">
+            <g id="Group_1" data-name="Group 1" transform="translate(12.683)">
+              <path id="Path_1" data-name="Path 1"
+                d="M52.508,74.122,61.92,21.363l-7.551-10.42,3.705-7.432H46.943l3.713,7.432-7.563,10.42Z"
+                transform="translate(16.244 3.34)" fill="#fff" />
+              <path id="Path_2" data-name="Path 2"
+                d="M135.334,169.111H150.2l-3.711-63.2L139.045,22.3l-35.3-14.864L100.024.006,96.311,14.87,81.437,100.348,66.572,14.864,62.849,0,59.136,7.432,23.83,22.295l-7.436,83.62-3.711,63.2H27.549L41.114,87.1l5.011,18.808-14.87,62.527L74,187.014l7.432-36.572,7.428,36.572,42.75-18.582-14.878-62.527L121.743,87.1ZM120.617,53.189l-15.1,2.094L115.5,42.966l5.116,3.953Z"
+                transform="translate(-12.683)" fill="#fff" />
+            </g>
+          </g>
+        </svg>
+        <p>مكشم</p>
+      </div>
+      <div class="card2"><svg xmlns="http://www.w3.org/2000/svg" width="233.4" height="194.505"
+          viewBox="0 0 233.4 194.505">
+          <path id="iconmonstr-idea-12"
+            d="M233.4,92.718c0,40.227-36.79,61.534-69.495,60.084a70.029,70.029,0,0,0,3.734,32.191L131.463,195.5c-3.287-9.982-9.657-33.791-26.763-46.672-26.53,7.091-48.324-5.711-56.249-23.226C20.9,126.013,0,109.374,0,85.353,0,48.229,44.774,1,116.6,1,189.851,1,233.4,48.539,233.4,92.718ZM19.528,83.267c-1.41,20.794,21.191,27.142,43.179,24.985,3.268,21.475,27.288,28.99,45.241,21.183,15.083,6.542,26.715,20.953,36.265,43.914l.019.053,1.079-.318c-2.13-13.96-.875-29.388,3.5-40.033,38,6.065,66.607-10.194,65.06-42.685-1.614-33.853-35.564-70.826-95.723-71.693-61.287-.362-96.832,37.619-98.621,64.593Zm79.4-21.961c-6.73-2.776-11.407-8.947-11.407-16.1,0-9.761,8.714-17.682,19.45-17.682s19.45,7.922,19.45,17.682a16.235,16.235,0,0,1-1.371,6.525c11.816,8.054,23.389,16.4,35.01,24.7a25.772,25.772,0,0,1,14.986-4.7c13.42,0,24.313,9.9,24.313,22.1s-10.892,22.1-24.312,22.1c-11.388,0-20.957-7.135-23.593-16.754-11.68.866-23.379,1.53-35.068,2.246-1.653,8.249-9.6,14.508-19.139,14.508-10.736,0-19.45-7.922-19.45-17.682,0-9.133,7.624-16.657,17.408-17.585,1.167-6.463,2.451-12.908,3.725-19.362Zm20.024-2.175a20.444,20.444,0,0,1-10.279,3.687l-3.53,19.274A18.487,18.487,0,0,1,115.64,92.5l35.477-2.555a20.485,20.485,0,0,1,2.548-6.622L118.956,59.13Z"
+            transform="translate(0 -1)" fill="#fff" fill-rule="evenodd" />
+        </svg>
+        <p>عقاله</p>
+      </div>
+      <div class="card3"><svg xmlns="http://www.w3.org/2000/svg" width="214.598" height="178.832"
+          viewBox="0 0 214.598 178.832">
+          <path id="iconmonstr-checkbox-2"
+            d="M49,74.329l14.155-13.09c16.578,8.012,27.075,14.11,45.692,27.388C143.861,48.908,166.993,28.753,209.993,2l4.6,10.6C179.145,43.543,153.169,78,115.785,145.065,92.724,117.9,77.327,100.59,49,74.329Zm111.949,29.659v58.961H17.883V19.883H153.268C160.832,13.776,168.773,7.893,177.33,2H0V180.832H178.832V77.923c-5.866,7.94-11.785,16.578-17.883,26.065Z"
+            transform="translate(0 -2)" fill="#fff" />
+        </svg>
+        <p>شخصيه</p>
+      </div>
+    </div>
+  </section>
+
+  <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="mas3ood.jpg" alt="First slide">
+        <div class="carousel-caption">
+          <h5 class="carousel-h5">مراجل ميه لميه</h5>
+          <p class="carousel-p">-مسعود-</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="faisal.jpg" alt="Second slide">
+        <div class="carousel-caption">
+          <h5 class="carousel-h5">القائد العظيم ابو شوجي فوق راسنا</h5>
+          <p class="carousel-p">-اللواء فيصل-</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="is7ak.jpg" alt="Third slide">
+        <div class="carousel-caption">
+          <h5 class="carousel-h5">مياو</h5>
+          <p class="carousel-p">-اسحاق-</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="farouk.jpg" alt="fourth slide">
+        <div class="carousel-caption">
+          <h5 class="carousel-h5">...</h5>
+          <p class="carousel-p">فاروق</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="mo3taz.jpg" alt="Fifth slide">
+        <div class="carousel-caption">
+          <h5 class="carousel-h5">حجيبك يبو شوجي وين ما رحت</h5>
+          <p class="carousel-p">-معتز السفاح-</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="yassin.jpg" alt="Sixth slide">
+        <div class="carousel-caption">
+          <h5 class="carousel-h5">👌ابو شوجي شخصيه وعجاله بحق</h5>
+          <p class="carousel-p">-ياسين-</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="yazan.jpg" alt="Seventh slide">
+        <div class="carousel-caption">
+          <h5 class="carousel-h5">ابو شوجي ابو شوجي ههههههههه</h5>
+          <p class="carousel-p">-يزن-</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">قبل</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">بعد</span>
+    </a>
+  </div>
+
+
+  <footer>
+    <p>مصنوع ب💗 من مصطفى  مرزوق &copy; 2021</p>
+    <a href="https://twitter.com/TopVirusMinus" target="_blank"><i class="fab fa-twitter"></i></a>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
