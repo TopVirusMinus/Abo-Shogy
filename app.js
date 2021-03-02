@@ -4,5 +4,7 @@ window.addEventListener("DOMContentLoaded", event => {
     audio.play();
     audio.loop = true;
   });
-
+function touchstart() {
+    alert('touch');
+}
   document.querySelector("audio").loop = true;
